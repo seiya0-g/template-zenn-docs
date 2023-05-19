@@ -1,0 +1,20 @@
+{
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "markdownlint.config": {
+        "MD010": {
+            "code_blocks": false
+        },
+        "MD024": {
+            "siblings_only": true
+        },
+        "MD025": false,
+        "MD033": {
+            "allowed_elements": ["br"]
+        },
+        "MD034": false,
+    },
+}

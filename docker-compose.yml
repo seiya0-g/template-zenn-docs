@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  zenn-cli:
+    container_name: "zenn-cli"
+    image: "zenn-cli"
+    build:
+      context: "./docker"
+    ports:
+      - "${IP}:${PORT}:8000"
+    volumes:
+      - ".:/usr/src/app"
+    command: "npx zenn preview"
